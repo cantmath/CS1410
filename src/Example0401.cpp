@@ -13,7 +13,7 @@ struct Point {
 };
 
 void printDate(Date& d){
-    cout << "DOB:" << d.month << "," << d.day << "," << d.year << endl;
+    cout << "Date:" << d.month << "," << d.day << "," << d.year << endl;
 }
 
 void printPoint(Point& p){
@@ -42,6 +42,6 @@ int main (){
     h.y = (p.y + q.y) / 2;
 
     printPoint(h);
-    
+
     return 0;
 }
