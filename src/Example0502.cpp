@@ -10,7 +10,7 @@ int main(){
     cout << "Enter your age: ";
     cin >> age;
 
-    cin.ignore();
+    //cin.ignore();
     
     cout << "Enter full name:";
     getline(cin, fullName);
